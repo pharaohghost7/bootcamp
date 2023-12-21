@@ -1,0 +1,92 @@
+{
+   "account_check_status":{
+    "< 0 DM":1,
+    "0 <= ... < 200 DM": 2,
+    ">= 200 DM / salary assignments for at least 1 year":3,
+    "no checking account":4
+    
+   } ,
+   "credit_history":{
+    "critical account/ other credits existing (not at this bank)":5,
+    "existing credits paid back duly till now":3,
+    "delay in paying off in the past":4,
+    "no credits taken/ all credits paid back duly":1,
+    "all credits at this bank paid back duly":2
+
+   },
+   "purpose":{
+    "domestic appliances":5,
+    "(vacation - does not exist?)":8,
+    "radio/television":4,
+    "car (new)":1,
+    "car (used)":2,
+    "business":10,
+    "repairs":6,
+    "education":7,
+    "furniture/equipment":3,
+    "retraining":9,
+    "others":11
+   },
+   "savings":{
+    "unknown/ no savings account": 1,
+    "... < 100 DM": 5,
+    "500 <= ... < 1000 DM ": 3,
+    ".. >= 1000 DM ": 2,
+    "100 <= ... < 500 DM": 4
+   },
+   "present_emp_since":{
+    ".. >= 7 years": 1,
+    "1 <= ... < 4 years": 3,
+    "4 <= ... < 7 years": 2,
+    "unemployed": 5,
+    "... < 1 year ": 4
+
+   },
+   "personal_status_sex":{
+    "male : single": 3,
+    "female : divorced/separated/married": 2,
+    "male : divorced/separated": 1,
+    "male : married/widowed": 4,
+    "female : single": 5
+   },
+   "other_debtors":{
+    "guarantor": 3,
+    "co-applicant": 2,
+    "none": 1
+   },
+   "property":{
+    "real estate": 1,
+    "if not A121 : building society savings agreement/ life insurance": 2,
+    "unknown / no property": 4,
+    "if not A121/A122 : car or other, not in attribute 6":3 
+   },
+   "other_installment_plans":{
+    "none": 3,
+    "bank": 1,
+    "stores": 2 
+   },
+   "housing":{
+    "own" : 2,
+    "for free": 3,
+    "rent": 1
+   },
+   "job":{
+    "skilled employee / official": 3,
+    "unskilled - resident": 2,
+    "management/ self-employed/ highly qualified employee/ officer": 4,
+    "unemployed/ unskilled - non-resident": 1
+
+   },
+   "telephone":{
+    "none": 0,
+    "yes, registered under the customers name ": 1
+   },
+   "foreign_worker":{
+    "yes": 1,
+    "no": 0
+
+   }
+
+
+
+}
